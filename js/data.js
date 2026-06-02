@@ -37,7 +37,13 @@ window.WEEKLY_REPORTS = [
       "继续推进实车建图，结合 Gazebo、RViz 仿真经验排查实车建图失败原因。",
       "将 Nav2 仿真中的样例车替换为履带车模型，统一控制接口并进行更贴近实车的导航避障仿真。"
     ],
-    media: []
+    media: [
+      {
+        type: "image",
+        src: "media/week06/rviz-gazebo-mapping.png",
+        caption: "建图定位组在 RViz/Gazebo 中加载履带车模型，进行仿真建图环境验证。"
+      },
+    ]
   },
   {
     week: 7,
