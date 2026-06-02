@@ -170,7 +170,13 @@ window.WEEKLY_REPORTS = [
       "进一步验证深度相机在履带车上的稳定接入和点云质量。",
       "将保存的 2D 栅格地图用于后续 Nav2 导航配置与短距离导航测试。"
     ],
-    media: []
+    media: [
+      {
+        type: "image",
+        src: "media/week11/orbbec-rviz-color-depth.jpg",
+        caption: "建图组在远程 RViz 中查看 Orbbec Astra Pro Plus 深度相机输出的深度图和彩色图，验证相机 ROS2 话题接入。"
+      }
+    ]
   },
   {
     week: 12,
@@ -209,7 +215,18 @@ window.WEEKLY_REPORTS = [
       "在 TF 链路稳定后继续进行短距离导航测试。",
       "继续规范小蓝电台遥控流程：先 ping 通小蓝，再分别启动 radio_xiaolan_native 与 radio_gamepad_teleop。"
     ],
-    media: []
+    media: [
+      {
+        type: "image",
+        src: "media/week12/robosense-dense-pointcloud-top.png",
+        caption: "建图组基于 Robosense 点云和 KISS-ICP 里程计累计生成三维稠密点云地图，并在 RViz 中从俯视角查看环境结构。"
+      },
+      {
+        type: "image",
+        src: "media/week12/robosense-dense-pointcloud-oblique.png",
+        caption: "Robosense 稠密点云地图的侧向视角，显示实车测试中环境结构被持续累积并保留历史点云帧。"
+      }
+    ]
   },
   {
     week: 13,
