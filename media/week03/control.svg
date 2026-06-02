@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f0fdf4"/>
+  <text x="70" y="88" font-size="42" font-family="Microsoft YaHei, Arial" font-weight="700" fill="#0f172a">基础运动控制逻辑</text>
+  <text x="70" y="138" font-size="24" font-family="Microsoft YaHei, Arial" fill="#64748b">前进、后退、左转、右转、停止</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#22c55e"/></marker></defs>
+  <g font-family="Microsoft YaHei, Arial" font-size="24" font-weight="700" text-anchor="middle">
+    <rect x="485" y="190" width="230" height="82" rx="22" fill="#dcfce7" stroke="#22c55e" stroke-width="4"/><text x="600" y="242" fill="#166534">接收指令</text>
+    <rect x="210" y="360" width="180" height="82" rx="22" fill="#dbeafe"/><text x="300" y="412" fill="#1d4ed8">前进</text>
+    <rect x="420" y="360" width="180" height="82" rx="22" fill="#dbeafe"/><text x="510" y="412" fill="#1d4ed8">后退</text>
+    <rect x="630" y="360" width="180" height="82" rx="22" fill="#dbeafe"/><text x="720" y="412" fill="#1d4ed8">转向</text>
+    <rect x="840" y="360" width="180" height="82" rx="22" fill="#fee2e2"/><text x="930" y="412" fill="#b91c1c">停止</text>
+  </g>
+  <g stroke="#22c55e" stroke-width="5" marker-end="url(#arrow)">
+    <line x1="560" y1="275" x2="330" y2="350"/><line x1="585" y1="275" x2="520" y2="350"/><line x1="615" y1="275" x2="710" y2="350"/><line x1="645" y1="275" x2="910" y2="350"/>
+  </g>
+</svg>

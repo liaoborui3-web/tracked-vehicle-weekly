@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <text x="70" y="88" font-size="42" font-family="Microsoft YaHei, Arial" font-weight="700" fill="#0f172a">项目推进流程</text>
+  <text x="70" y="138" font-size="24" font-family="Microsoft YaHei, Arial" fill="#64748b">底盘搭建 → 控制调试 → 传感器接入 → 综合展示</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker></defs>
+  <g font-family="Microsoft YaHei, Arial" font-size="26" font-weight="700" text-anchor="middle">
+    <rect x="90" y="285" width="210" height="120" rx="28" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><text x="195" y="355" fill="#1d4ed8">底盘搭建</text>
+    <rect x="365" y="285" width="210" height="120" rx="28" fill="#dcfce7" stroke="#22c55e" stroke-width="4"/><text x="470" y="355" fill="#15803d">控制调试</text>
+    <rect x="640" y="285" width="210" height="120" rx="28" fill="#ffedd5" stroke="#f97316" stroke-width="4"/><text x="745" y="355" fill="#c2410c">传感器接入</text>
+    <rect x="915" y="285" width="210" height="120" rx="28" fill="#ede9fe" stroke="#7c3aed" stroke-width="4"/><text x="1020" y="355" fill="#6d28d9">综合展示</text>
+  </g>
+  <g stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)">
+    <line x1="310" y1="345" x2="350" y2="345"/><line x1="585" y1="345" x2="625" y2="345"/><line x1="860" y1="345" x2="900" y2="345"/>
+  </g>
+</svg>

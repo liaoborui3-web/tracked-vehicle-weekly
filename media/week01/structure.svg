@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f0fdf4"/></linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#22c55e"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <text x="70" y="92" font-size="42" font-family="Microsoft YaHei, Arial" font-weight="700" fill="#0f172a">履带车总体结构设想图</text>
+  <text x="70" y="142" font-size="24" font-family="Microsoft YaHei, Arial" fill="#64748b">将此图片替换为实际结构图、装配照片或 CAD 截图</text>
+  <rect x="230" y="320" width="740" height="110" rx="38" fill="url(#b)"/>
+  <rect x="420" y="230" width="300" height="120" rx="28" fill="#38bdf8"/>
+  <rect x="260" y="440" width="300" height="82" rx="42" fill="#111827"/>
+  <rect x="640" y="440" width="300" height="82" rx="42" fill="#111827"/>
+  <g fill="#e2e8f0" stroke="#334155" stroke-width="10">
+    <circle cx="345" cy="481" r="32"/><circle cx="455" cy="481" r="32"/><circle cx="735" cy="481" r="32"/><circle cx="845" cy="481" r="32"/>
+  </g>
+  <circle cx="925" cy="292" r="28" fill="#22c55e"/>
+  <path d="M955 292 Q1015 250 1080 250" fill="none" stroke="#22c55e" stroke-width="10" stroke-linecap="round"/>
+  <path d="M955 292 Q1030 292 1095 340" fill="none" stroke="#22c55e" stroke-width="10" stroke-linecap="round" opacity=".65"/>
+  <g font-family="Microsoft YaHei, Arial" font-size="24" fill="#0f172a">
+    <text x="155" y="265">控制板</text>
+    <line x1="245" y1="258" x2="425" y2="290" stroke="#0f172a" stroke-width="3"/>
+    <text x="80" y="475">履带底盘</text>
+    <line x1="205" y1="468" x2="300" y2="470" stroke="#0f172a" stroke-width="3"/>
+    <text x="940" y="235">传感器/摄像头</text>
+  </g>
+</svg>

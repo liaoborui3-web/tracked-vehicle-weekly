@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <circle cx="600" cy="338" r="95" fill="#2563eb"/>
+  <path d="M570 285 L570 390 L665 337 Z" fill="white"/>
+  <text x="600" y="485" text-anchor="middle" font-size="38" font-family="Microsoft YaHei, Arial" font-weight="700" fill="white">电机测试视频占位图</text>
+  <text x="600" y="535" text-anchor="middle" font-size="24" font-family="Microsoft YaHei, Arial" fill="#cbd5e1">把真实视频命名为 motor-test.mp4 并放到 media/week02/ 即可播放</text>
+</svg>

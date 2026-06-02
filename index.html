@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>履带车项目周报展示平台</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar">
+      <div class="brand">
+        <div class="brand-mark">TV</div>
+        <div>
+          <p class="eyebrow">Tracked Vehicle Project</p>
+          <h1>履带车项目周报展示平台</h1>
+        </div>
+      </div>
+      <a class="nav-button" href="#weekly">查看周报</a>
+    </nav>
+
+    <section class="hero-content">
+      <div class="hero-copy">
+        <p class="badge">文字 · 图片 · 视频 · 动画 · 阶段成果</p>
+        <h2>把每周工作从“文字记录”升级成“可视化项目进展”。</h2>
+        <p class="hero-desc">
+          按周展示研发目标、完成内容、问题与改进、图片记录和演示视频，适合课程汇报、项目答辩和过程管理展示。
+        </p>
+        <div class="hero-actions">
+          <a class="primary" href="#weekly">进入周报时间线</a>
+          <a class="secondary" href="#guide">如何更新内容</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="履带车动画示意">
+        <div class="ground"></div>
+        <div class="vehicle">
+          <div class="body-top"></div>
+          <div class="body-main"></div>
+          <div class="track left-track"></div>
+          <div class="track right-track"></div>
+          <div class="wheel w1"></div>
+          <div class="wheel w2"></div>
+          <div class="wheel w3"></div>
+          <div class="sensor"></div>
+        </div>
+        <div class="signal s1"></div>
+        <div class="signal s2"></div>
+        <div class="signal s3"></div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="stats" id="overview">
+      <article>
+        <span id="weekCount">0</span>
+        <p>已记录周数</p>
+      </article>
+      <article>
+        <span id="taskCount">0</span>
+        <p>完成事项</p>
+      </article>
+      <article>
+        <span id="mediaCount">0</span>
+        <p>图片/视频素材</p>
+      </article>
+      <article>
+        <span id="issueCount">0</span>
+        <p>问题与改进</p>
+      </article>
+    </section>
+
+    <section class="section-head" id="weekly">
+      <p class="eyebrow">Weekly Timeline</p>
+      <h2>每周进展</h2>
+      <p>点击任意周报卡片，可查看完整文字、图片和视频展示。</p>
+    </section>
+
+    <section class="controls" aria-label="筛选周报">
+      <div class="search-box">
+        <input id="searchInput" type="search" placeholder="搜索：底盘、控制、传感器、调试……" />
+      </div>
+      <div class="filter-box" id="filterBox"></div>
+    </section>
+
+    <section class="timeline" id="timeline"></section>
+
+    <section class="section-head" id="guide">
+      <p class="eyebrow">Update Guide</p>
+      <h2>后续怎么更新</h2>
+    </section>
+
+    <section class="guide-grid">
+      <article class="guide-card">
+        <h3>1. 修改周报内容</h3>
+        <p>打开 <code>js/data.js</code>，按照示例新增一周，填写标题、日期、目标、完成内容、问题、计划和标签。</p>
+      </article>
+      <article class="guide-card">
+        <h3>2. 放入图片和视频</h3>
+        <p>把图片或视频复制到 <code>media/week04/</code> 这样的文件夹里，再在 <code>media</code> 字段中写对应路径。</p>
+      </article>
+      <article class="guide-card">
+        <h3>3. 打开展示</h3>
+        <p>直接双击 <code>index.html</code> 即可本地查看，也可以上传到 GitHub Pages、学校服务器或任意静态网站空间。</p>
+      </article>
+    </section>
+  </main>
+
+  <div class="modal" id="reportModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="close" data-close="true" aria-label="关闭">×</button>
+      <div id="modalContent"></div>
+    </article>
+  </div>
+
+  <footer>
+    <p>履带车项目周报展示平台 · 适用于课程项目过程展示</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
