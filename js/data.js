@@ -1,99 +1,84 @@
 // 在这里维护每周周报数据。
-// 新增周报时，复制一个对象，修改 week、date、title、summary、tasks、issues、nextPlan 和 media 即可。
-// 图片/视频路径示例：media/week04/xxx.jpg 或 media/week04/demo.mp4
+// 新增周报时，复制一个对象，修改 week、date、title、summary、progress、tags、goals、tasks、issues、nextPlan 和 media 即可。
+// 图片/视频路径示例：media/week14/xxx.jpg 或 media/week14/demo.mp4
 
 window.WEEKLY_REPORTS = [
   {
-    week: 1,
-    date: "2026.05.06 - 2026.05.12",
-    title: "项目启动与履带车总体方案确定",
-    summary: "完成项目目标拆解，初步确定履带式移动平台的机械结构、控制系统和传感器布局方案，形成第一版任务分工。",
-    progress: 18,
-    tags: ["需求分析", "总体设计", "任务分工"],
-    goals: [
-      "明确履带车项目的核心功能：远程控制、稳定行驶、基础避障与视频展示。",
-      "完成机械、电控、软件、展示材料四个方向的初步分工。",
-      "建立每周记录机制，便于后续网页化展示。"
-    ],
-    tasks: [
-      "整理老师对履带车项目的功能要求与展示要求。",
-      "讨论底盘尺寸、电机选型、电池供电与控制板方案。",
-      "形成第一版项目路线：底盘搭建 → 控制调试 → 传感器接入 → 综合演示。"
-    ],
-    issues: [
-      "仅用文字周报展示效果较弱，无法体现过程中的调试细节与实际成果。",
-      "机械结构和电控方案尚未完全锁定，需要结合现有器材进一步确认。"
-    ],
-    nextPlan: [
-      "完成履带车底盘装配。",
-      "测试电机驱动模块与控制板通信。",
-      "开始收集图片、视频素材，用于后续展示网页。"
-    ],
-    media: [
-      { type: "image", src: "media/week01/structure.svg", caption: "履带车总体结构设想图" },
-      { type: "image", src: "media/week01/workflow.svg", caption: "项目推进流程图" }
-    ]
+    week: 6,
+    date: "4.6 - 4.12",
+    title: "第6周项目周报",
+    summary: "待填写本周工作概述。",
+    progress: 0,
+    tags: ["待填写"],
+    goals: [],
+    tasks: [],
+    issues: [],
+    nextPlan: [],
+    media: []
   },
   {
-    week: 2,
-    date: "2026.05.13 - 2026.05.19",
-    title: "底盘装配与电机驱动初步测试",
-    summary: "完成履带底盘基础装配，接入电机驱动模块，验证左右履带正反转控制，为后续运动控制和遥控功能打基础。",
-    progress: 36,
-    tags: ["底盘装配", "电机驱动", "硬件调试"],
-    goals: [
-      "完成履带底盘、电机和支撑结构安装。",
-      "验证驱动模块能否稳定控制左右电机。",
-      "记录装配过程中的结构问题。"
-    ],
-    tasks: [
-      "完成左右履带、电机支架和车体框架安装。",
-      "连接电机驱动板，进行正转、反转、停止测试。",
-      "拍摄底盘装配图和电机运行测试视频。"
-    ],
-    issues: [
-      "履带张紧度不均匀，低速运行时存在轻微跑偏。",
-      "部分杜邦线连接松动，运动时容易造成瞬间断连。"
-    ],
-    nextPlan: [
-      "重新整理线束，并使用扎带固定。",
-      "加入遥控输入或串口指令控制。",
-      "测试不同速度下的直线行驶稳定性。"
-    ],
-    media: [
-      { type: "image", src: "media/week02/chassis.svg", caption: "履带底盘装配记录" },
-      { type: "video", src: "media/week02/motor-test.mp4", poster: "media/week02/video-poster.svg", caption: "电机正反转测试视频：替换为实际 mp4 后即可播放" }
-    ]
+    week: 7,
+    date: "4.13 - 4.19",
+    title: "第7周项目周报",
+    summary: "待填写本周工作概述。",
+    progress: 0,
+    tags: ["待填写"],
+    goals: [],
+    tasks: [],
+    issues: [],
+    nextPlan: [],
+    media: []
   },
   {
-    week: 3,
-    date: "2026.05.20 - 2026.05.26",
-    title: "控制逻辑完善与网页展示原型搭建",
-    summary: "在运动控制方面加入基本指令逻辑，同时开始搭建周报网页原型，使每周成果可以通过时间线、图文和视频集中展示。",
-    progress: 55,
-    tags: ["运动控制", "网页展示", "过程记录"],
-    goals: [
-      "完善前进、后退、左转、右转、停止等基础控制逻辑。",
-      "建立网页化周报展示框架。",
-      "统一每周周报素材的命名和存放方式。"
-    ],
-    tasks: [
-      "整理控制逻辑流程，减少重复代码。",
-      "设计网页首页、统计卡片、周报时间线和详情弹窗。",
-      "制定图片与视频素材的文件夹规范。"
-    ],
-    issues: [
-      "控制逻辑还没有加入速度闭环，转向稳定性仍依赖人工调整。",
-      "周报素材需要团队成员每周及时上传，否则展示内容会不完整。"
-    ],
-    nextPlan: [
-      "继续测试低速转向与原地转向效果。",
-      "加入传感器或摄像头展示模块。",
-      "将真实调试图片和视频替换进网页。"
-    ],
-    media: [
-      { type: "image", src: "media/week03/control.svg", caption: "基础运动控制逻辑图" },
-      { type: "image", src: "media/week03/webpage.svg", caption: "周报网页展示原型" }
-    ]
+    week: 10,
+    date: "5.4 - 5.10",
+    title: "第10周项目周报",
+    summary: "待填写本周工作概述。",
+    progress: 0,
+    tags: ["待填写"],
+    goals: [],
+    tasks: [],
+    issues: [],
+    nextPlan: [],
+    media: []
+  },
+  {
+    week: 11,
+    date: "5.11 - 5.17",
+    title: "第11周项目周报",
+    summary: "待填写本周工作概述。",
+    progress: 0,
+    tags: ["待填写"],
+    goals: [],
+    tasks: [],
+    issues: [],
+    nextPlan: [],
+    media: []
+  },
+  {
+    week: 12,
+    date: "5.18 - 5.24",
+    title: "第12周项目周报",
+    summary: "待填写本周工作概述。",
+    progress: 0,
+    tags: ["待填写"],
+    goals: [],
+    tasks: [],
+    issues: [],
+    nextPlan: [],
+    media: []
+  },
+  {
+    week: 13,
+    date: "5.25 - 5.31",
+    title: "第13周项目周报",
+    summary: "待填写本周工作概述。",
+    progress: 0,
+    tags: ["待填写"],
+    goals: [],
+    tasks: [],
+    issues: [],
+    nextPlan: [],
+    media: []
   }
 ];
